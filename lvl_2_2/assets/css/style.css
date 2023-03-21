@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+.button-section {
+  display: flex;
+  gap: 50px;
+}
+
+.button-section button {
+  width: 20vw;
+  background-color: aqua;
+  text-align: center;
+}
+.button-section div span {
+  width: 20vw;
+  padding: 60px;
+}
