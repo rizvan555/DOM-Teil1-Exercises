@@ -3,22 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
 main {
   display: flex;
   flex-direction: column;
-  margin: 100px;
+  margin: 150px;
 }
 .button-section {
   display: flex;
   gap: 50px;
 }
-
 .button-section button {
-  width: 20vw;
   background-color: aqua;
   text-align: center;
+  padding: 20px;
+}
+.button-section div {
+  display: flex;
+  flex-direction: column;
 }
 .button-section div span {
   width: 20vw;
-  padding: 60px;
+  font-size: 30px;
 }
